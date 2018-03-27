@@ -10,7 +10,7 @@ attr_accessor :name, :csv_emails
     @csv_emails = csv_emails
   end
 
-  def self.parse
+  def parse
     csv_emails.split(", ")
   end
 
