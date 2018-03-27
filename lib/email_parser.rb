@@ -11,7 +11,7 @@ attr_accessor :csv_emails
   end
 
   def parse
-    csv_emails.split(/[\s]/)
+    csv_emails.split(/[\s,]/)
   end
 
 end
