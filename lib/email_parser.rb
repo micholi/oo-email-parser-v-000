@@ -11,7 +11,7 @@ attr_accessor :csv_emails
   end
 
   def parse
-    csv_emails.split(", ", " ")
+    csv_emails.each {|email| csv_emails.split(",")}
   end
 
 end
