@@ -4,9 +4,9 @@
 # or whitespace (' ').
 class EmailParser
 
-def initialize(emails)
-  emails
-  
+def initialize(csv_emails)
+  @csv_emails = csv_emails
+
 
 end
 
