@@ -11,6 +11,7 @@ attr_accessor :name, :csv_emails
   end
 
   def self.parse
+    
   end
 
 end
